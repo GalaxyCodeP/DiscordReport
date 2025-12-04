@@ -1,0 +1,17 @@
+# Discord Bot Configuration
+discord:
+  # Get your bot token from https://discord.com/developers/applications
+  bot-token: "YOUR_TOKEN_HERE"
+  # Right-click on the channel in Discord and select "Copy ID" (Developer Mode must be enabled)
+  report-channel-id: "YOUR_CHANNEL_ID"
+
+# Messages (in Thai)
+messages:
+  report-sent: "§aรายงานของคุณถูกส่งไปยังผู้ดูแลเรียบร้อยแล้ว"
+  report-usage: "§cการใช้งาน: /report <ข้อความ>"
+  report-accepted: "§aรายงานของคุณได้รับการยอมรับโดย %admin%\n§7เหตุผล: %reason%"
+  report-rejected: "§cรายงานของคุณถูกปฏิเสธโดย %admin%\n§7เหตุผล: %reason%"
+  discord-error: "§cเกิดข้อผิดพลาดในการเชื่อมต่อกับ Discord กรุณาลองใหม่อีกครั้ง"
+  player-offline: "§7ผู้เล่นออฟไลน์ในขณะที่ตอบกลับ"
+  pending-messages-header: "§e§l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n§6§lการตอบกลับจากผู้ดูแล\n§e§l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+  pending-messages-footer: "§e§l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"

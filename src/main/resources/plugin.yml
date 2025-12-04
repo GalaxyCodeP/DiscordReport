@@ -1,0 +1,18 @@
+name: ReportPlugin
+version: '1.0.0'
+main: com.example.reportplugin.ReportPlugin
+api-version: '1.21'
+description: Discord report plugin for Minecraft
+author: YourName
+
+commands:
+  report:
+    description: Send a report to Discord
+    usage: /report <message>
+    permission: reportplugin.use
+    aliases: [rp]
+
+permissions:
+  reportplugin.use:
+    description: Allows players to use the report command
+    default: true
