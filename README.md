@@ -7,12 +7,14 @@ A comprehensive Minecraft report system that integrates with Discord to allow pl
 - Real-time feedback confirmation
 - Offline message delivery system
 - Smart 10-second delay on login
+
 **🛡️ Admin Features:**
 - Discord integration with rich embeds
 - Interactive buttons (Accept/Reject)
 - Modal system for detailed responses
 - Auto-updating Discord messages
 - Unique report tracking IDs
+
 **📦 Technical Features:**
 - Asynchronous Discord bot
 - Thread-safe storage
@@ -20,6 +22,7 @@ A comprehensive Minecraft report system that integrates with Discord to allow pl
 - Error handling & logging
 - Fully configurable messages
 - JDA 5.2.1 integration
+
 **📥 Installation Steps**
 1. Download plugin JAR
 2. Place in plugins folder
